@@ -1,4 +1,4 @@
-from element_infos.login_page import LoginPage
+from element_infos.login.login_page import LoginPage
 
 
 def test_login(url, username, password, driver):

@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/PO_UI_Test_Framework.iml" filepath="$PROJECT_DIR$/.idea/PO_UI_Test_Framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../DATA_VISUALIZATION/.idea/DATA_VISUALIZATION.iml" filepath="$PROJECT_DIR$/../DATA_VISUALIZATION/.idea/DATA_VISUALIZATION.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/FG_UI_Test_Framework.iml" filepath="$PROJECT_DIR$/.idea/FG_UI_Test_Framework.iml" />
       <module fileurl="file://$PROJECT_DIR$/../python_AutoTest_Lesson/.idea/python_AutoTest_Lesson.iml" filepath="$PROJECT_DIR$/../python_AutoTest_Lesson/.idea/python_AutoTest_Lesson.iml" />
     </modules>
   </component>

@@ -1,0 +1,2 @@
+测试方法名称	测试用例名称	所属测试类	测试是否执行	期望结果	测试失败提示信息	参数1	参数2	参数3	参数4
+test_login_success	验证是否能成功进行登录	LoginTest	是	测试人员1	用例失败	username=test01	pasword=newdream123		

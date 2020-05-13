@@ -6,6 +6,7 @@ from selenium import webdriver
 from common.log_utils import LogUtils
 from common.config_utils import local_config
 from selenium.webdriver.support import expected_conditions as EC
+from common import HTMLTestReportCN
 
 current_dir = os.path.dirname(__file__)
 
@@ -169,6 +170,11 @@ class BasePage:
         now = time.strftime('%Y_%m_%d_%H_%M_%S')
         screenshot_filepath = os.path.join(current_dir, screenshot_filepath, 'UITest_%s.png' % now)
         self.driver.get_screenshot_as_file(screenshot_filepath)
+
+    def screenshot_as_file_in_report_page(self):
+        report_path = os.path.join(os.path.dirname(__file__), '..', local_config.report_path)
+        report_dir = HTMLTestReportCN.ReportDirectory(report_path)
+        report_dir.get_screenshot(self.driver)
 
     # 获取windows句柄
     def get_window_handle(self):
